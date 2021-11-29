@@ -11,7 +11,7 @@ module.exports = {
         'ecmaFeatures': {
             'jsx': true
         },
-        'ecmaVersion': 13,
+        'ecmaVersion': 11,
         'sourceType': 'module'
     },
     'plugins': ['react'],
@@ -197,7 +197,7 @@ module.exports = {
         'no-unneeded-ternary': 'error',
         'no-unreachable-loop': 'error',
         'no-unused-expressions': 'error',
-        'no-unused-private-class-members': 'error',
+        // 'no-unused-private-class-members': 'error',
         'no-use-before-define': 'error',
         'no-useless-call': 'error',
         'no-useless-computed-key': 'error',
